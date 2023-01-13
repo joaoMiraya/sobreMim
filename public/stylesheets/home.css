@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto Flex', sem serifa;
+text-decoration: none;
+}
+
+body{
+background-color: #1f1e2c;
+}
+.container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.perfil{
+margin-top: 50px;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #fff;
+padding: 30px;
+border-radius: 20px;
+width: 350px;
+height: 500px;
+}
+.foto-box{
+border-radius: 50%;
+overflow: hidden;
+}
+p{
+color: #6a6a6a;
+}
+.autor{
+position: relative;
+left: 60%;
+font-weight: bold;
+}
+
+.contatos{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.contatos img{
+cursor: pointer;
+}
+.ctt{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+.gmail-info{
+opacity: 0;
+position: relative;
+right: 190px;
+transition: .5s;
+}
+.ctt:hover .gmail-info{
+position: relative;
+right: 0;
+opacity: 1;
+}
+.whats-info{
+opacity: 0;
+position: relative;
+right: 190px;
+transition: .5s;
+}
+.ctt:hover .whats-info{
+position: relative;
+right: 0;
+opacity: 1;
+}
+hr{
+color: #000;
+height: 1px;
+width: 100%;
+margin: 10px 0px;
+}
+
+
+.moreInfo{
+display: flex;
+width: 500px;
+background-color: #fff;
+padding: 30px;
+border-radius: 20px;
+}

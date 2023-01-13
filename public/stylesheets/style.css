@@ -1,0 +1,77 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto Flex', sem serifa;
+text-decoration: none;
+}
+
+body{
+  background-image: url('../images/pexels-sohail-nachiti-807598.jpg');
+  background-size: cover;
+}
+.container{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+width: 100vw;
+height: 100vh;
+}
+.card{
+width: 200px;
+height: 350px;
+background-color: #a3c5c556;
+border-radius: 30px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+border-top: 2px solid rgba(0, 0, 0, 0.5);
+border-left: 2px solid rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(1px);
+transition: ease .4s;
+cursor: pointer;
+}
+.img-box{
+display: flex;
+z-index: 99;
+}
+.container .card .text-content{
+text-align: center;
+color: #fff;
+font-size: 20px;
+transform: translateY(70px);
+transition: .5s ease;
+opacity: 0;
+}
+.linkedin:hover{
+  background-color: #0e76a8;
+}
+.container .card:hover .text-content {
+transform: translateY(0px);
+opacity: 1;
+}
+         /*         FIM CARD LINKEDIN  */
+
+.github:hover{
+  background-color: #000;
+}         
+
+.eu-fundo{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.eu-fundo h3{
+color: #fff;
+font-size: 30px;
+}
+.habilidades:hover{
+background-color: #FEC100;
+}

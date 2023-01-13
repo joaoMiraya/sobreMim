@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sobre Mim</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+  </head>
+  <body class="body">
+
+    <div class="container"> 
+      
+      <a href="https://www.linkedin.com/in/joaomiraya/">
+      <div class="card linkedin">
+        <div class="img-box">
+    <img src="/images/linkedin.png" width="100px" height="100px" alt="LinkedIn">
+    </div>
+    <div class="text-content">
+      <p>Entre em meu perfil no LinkedIn</p>
+    </div>  
+      </div> 
+     </a>
+
+  <a href="https://github.com/joaoMiraya?tab=repositories">
+      <div class="card github">
+        <div class="img-box">
+        <img src="/images/logotipo-do-github.png" width="100px" height="100px" alt="Github">  
+        </div>
+        <div class="text-content">
+          <p>Acesse meu portifólio</p>
+        </div> 
+      </div>
+    </a>
+
+    <a href="home">
+      <div class="card habilidades">
+  <div class="img-box eu-fundo">
+      <h3>Sobre Mim</h3>
+        </div>
+        <div class="text-content">
+          <p>Conheça minhas habilidades</p>
+        </div>
+      </div>
+    </a>
+
+    </div>
+
+
+    <script src="/javascripts/vanilla-tilt.js"></script>
+
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 4000,
+        glare: true,
+        "max-glare": 1
+      });
+    </script>
+  </body>
+</html>
